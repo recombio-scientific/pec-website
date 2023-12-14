@@ -1,0 +1,14 @@
+```{r, echo=F, warning=F, message=F}
+
+library(faq)
+
+df <- data.frame(
+  question = c("Astronomia e Astrofísica", 
+               "Engenharia Biomolecular e Bioinformática"),
+  
+  answer = c("Em construção",
+             "Em construção")
+)
+faq::faq(data = df, elementId = "faq", faqtitle = "Bem-vindo(a) à página dos Projetos de Pesquisa do SIP 2023 traduzidos para a Língua Portuguesa")
+
+```
